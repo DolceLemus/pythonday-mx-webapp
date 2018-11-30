@@ -22,3 +22,24 @@
 4. Recomendaciones.
     1. Manejo de Docker local.
     2. Manejo de contenedores local y en servidores.
+
+
+kernel de linux
+
+crea una capa de insolacion.
+containers are isolated, but share OS and, 
+docker corre en una pequeña MV de linux en cualquier otro OS (no recomendado)
+
+Un contenedor se crea a base de imagenes, de una imagen se pueden crear distintos contenedores
+Se puede compartir distintas cosas entre contenedores, por ejemplo, un volumen, data, etc
+
+Se utiliza siempre vim Dockerfile
+
+FROM
+COPY
+
+-------------------------------
+unit_tests Django
+
+ipdb command
+se pueden poner breakpoints manualmente o en la bash
